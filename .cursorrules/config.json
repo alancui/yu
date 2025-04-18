@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "rules": {
+    "development": {
+      "path": "development.md",
+      "enforceLevel": "strict"
+    }
+  },
+  "validation": {
+    "requireTaskInTodo": true,
+    "requireTestCoverage": true,
+    "requireI18n": true,
+    "requireErrorHandling": true,
+    "requireAsync": true
+  },
+  "reporting": {
+    "updateTodoOnComplete": true,
+    "generateTestReport": true,
+    "trackProgress": true
+  }
+} 
