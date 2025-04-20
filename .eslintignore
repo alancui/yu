@@ -1,0 +1,22 @@
+# 构建输出
+build/
+dist/
+coverage/
+
+# 依赖
+node_modules/
+
+# 配置文件
+*.config.js
+metro.config.js
+
+# 其他
+.expo/
+*.d.ts
+__tests__/coverage/
+
+# iOS
+ios/
+
+# Android
+android/ 

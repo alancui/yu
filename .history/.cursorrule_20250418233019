@@ -1,0 +1,35 @@
+{
+  "name": "Yu",
+  "description": "语音助手应用 - 基于 React Native 和 Rust 的跨平台语音助手",
+  "rules": {
+    "indent": {
+      "type": "spaces",
+      "size": 2
+    },
+    "lineWidth": 100,
+    "useTabs": false,
+    "typescript": {
+      "semi": true,
+      "singleQuote": true,
+      "trailingComma": "es5"
+    },
+    "rust": {
+      "edition": "2021",
+      "indent": {
+        "size": 4
+      }
+    }
+  },
+  "excludes": [
+    "node_modules",
+    "rust/target",
+    "ios/Pods",
+    "android/build",
+    ".git",
+    "build",
+    "dist"
+  ],
+  "formatOnSave": true,
+  "organizeImportsOnSave": true,
+  "removeUnusedImportsOnSave": true
+} 
