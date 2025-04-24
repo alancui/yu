@@ -65,3 +65,6 @@ tmp/
 # 环境变量
 .env*
 !.env.example 
+
+
+.history/
